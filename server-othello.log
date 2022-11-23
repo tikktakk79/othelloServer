@@ -1,0 +1,189 @@
+App 3602355 output: internal/modules/cjs/loader.js:1015
+App 3602355 output:       throw new ERR_REQUIRE_ESM(filename, parentPath, packageJsonPath);
+App 3602355 output:       ^
+App 3602355 output: 
+App 3602355 output: Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: /home/sjoburger/domains/server.othello.sjoburger.com/apponline.js
+App 3602355 output: require() of ES modules is not supported.
+App 3602355 output: require() of /home/sjoburger/domains/server.othello.sjoburger.com/apponline.js from /opt/passenger/src/helper-scripts/node-loader.js is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+App 3602355 output: Instead rename apponline.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from /home/sjoburger/domains/server.othello.sjoburger.com/package.json.
+App 3602355 output: 
+App 3602355 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+App 3602355 output:     at Module.load (internal/modules/cjs/loader.js:863:32)
+App 3602355 output:     at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+App 3602355 output:     at Module.require (internal/modules/cjs/loader.js:887:19)
+App 3602355 output:     at Module.require (/opt/passenger/src/helper-scripts/node-loader.js:80:25)
+App 3602355 output:     at require (internal/modules/cjs/helpers.js:74:18)
+App 3602355 output:     at loadApplication (/opt/passenger/src/helper-scripts/node-loader.js:243:2)
+App 3602355 output:     at setupEnvironment (/opt/passenger/src/helper-scripts/node-loader.js:214:2)
+App 3602355 output:     at Object.<anonymous> (/opt/passenger/src/helper-scripts/node-loader.js:133:1)
+App 3602355 output:     at Module._compile (internal/modules/cjs/loader.js:999:30) {
+App 3602355 output:   code: 'ERR_REQUIRE_ESM'
+App 3602355 output: }
+App 3603555 output: internal/modules/cjs/loader.js:1015
+App 3603555 output:       throw new ERR_REQUIRE_ESM(filename, parentPath, packageJsonPath);
+App 3603555 output:       ^
+App 3603555 output: 
+App 3603555 output: Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: /home/sjoburger/domains/server.othello.sjoburger.com/apponline.js
+App 3603555 output: require() of ES modules is not supported.
+App 3603555 output: require() of /home/sjoburger/domains/server.othello.sjoburger.com/apponline.js from /opt/passenger/src/helper-scripts/node-loader.js is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+App 3603555 output: Instead rename apponline.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from /home/sjoburger/domains/server.othello.sjoburger.com/package.json.
+App 3603555 output: 
+App 3603555 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+App 3603555 output:     at Module.load (internal/modules/cjs/loader.js:863:32)
+App 3603555 output:     at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+App 3603555 output:     at Module.require (internal/modules/cjs/loader.js:887:19)
+App 3603555 output:     at Module.require (/opt/passenger/src/helper-scripts/node-loader.js:80:25)
+App 3603555 output:     at require (internal/modules/cjs/helpers.js:74:18)
+App 3603555 output:     at loadApplication (/opt/passenger/src/helper-scripts/node-loader.js:243:2)
+App 3603555 output:     at setupEnvironment (/opt/passenger/src/helper-scripts/node-loader.js:214:2)
+App 3603555 output:     at Object.<anonymous> (/opt/passenger/src/helper-scripts/node-loader.js:133:1)
+App 3603555 output:     at Module._compile (internal/modules/cjs/loader.js:999:30) {
+App 3603555 output:   code: 'ERR_REQUIRE_ESM'
+App 3603555 output: }
+App 3603925 output: internal/modules/cjs/loader.js:1015
+App 3603925 output:       throw new ERR_REQUIRE_ESM(filename, parentPath, packageJsonPath);
+App 3603925 output:       ^
+App 3603925 output: 
+App 3603925 output: Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: /home/sjoburger/domains/server.othello.sjoburger.com/apponline.js
+App 3603925 output: require() of ES modules is not supported.
+App 3603925 output: require() of /home/sjoburger/domains/server.othello.sjoburger.com/apponline.js from /opt/passenger/src/helper-scripts/node-loader.js is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+App 3603925 output: Instead rename apponline.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from /home/sjoburger/domains/server.othello.sjoburger.com/package.json.
+App 3603925 output: 
+App 3603925 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+App 3603925 output:     at Module.load (internal/modules/cjs/loader.js:863:32)
+App 3603925 output:     at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+App 3603925 output:     at Module.require (internal/modules/cjs/loader.js:887:19)
+App 3603925 output:     at Module.require (/opt/passenger/src/helper-scripts/node-loader.js:80:25)
+App 3603925 output:     at require (internal/modules/cjs/helpers.js:74:18)
+App 3603925 output:     at loadApplication (/opt/passenger/src/helper-scripts/node-loader.js:243:2)
+App 3603925 output:     at setupEnvironment (/opt/passenger/src/helper-scripts/node-loader.js:214:2)
+App 3603925 output:     at Object.<anonymous> (/opt/passenger/src/helper-scripts/node-loader.js:133:1)
+App 3603925 output:     at Module._compile (internal/modules/cjs/loader.js:999:30) {
+App 3603925 output:   code: 'ERR_REQUIRE_ESM'
+App 3603925 output: }
+App 3606546 output: internal/modules/cjs/loader.js:1015
+App 3606546 output:       throw new ERR_REQUIRE_ESM(filename, parentPath, packageJsonPath);
+App 3606546 output:       ^
+App 3606546 output: 
+App 3606546 output: Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: /home/sjoburger/domains/server.othello.sjoburger.com/apponline.js
+App 3606546 output: require() of ES modules is not supported.
+App 3606546 output: require() of /home/sjoburger/domains/server.othello.sjoburger.com/apponline.js from /opt/passenger/src/helper-scripts/node-loader.js is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+App 3606546 output: Instead rename apponline.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from /home/sjoburger/domains/server.othello.sjoburger.com/package.json.
+App 3606546 output: 
+App 3606546 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+App 3606546 output:     at Module.load (internal/modules/cjs/loader.js:863:32)
+App 3606546 output:     at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+App 3606546 output:     at Module.require (internal/modules/cjs/loader.js:887:19)
+App 3606546 output:     at Module.require (/opt/passenger/src/helper-scripts/node-loader.js:80:25)
+App 3606546 output:     at require (internal/modules/cjs/helpers.js:74:18)
+App 3606546 output:     at loadApplication (/opt/passenger/src/helper-scripts/node-loader.js:243:2)
+App 3606546 output:     at setupEnvironment (/opt/passenger/src/helper-scripts/node-loader.js:214:2)
+App 3606546 output:     at Object.<anonymous> (/opt/passenger/src/helper-scripts/node-loader.js:133:1)
+App 3606546 output:     at Module._compile (internal/modules/cjs/loader.js:999:30) {
+App 3606546 output:   code: 'ERR_REQUIRE_ESM'
+App 3606546 output: }
+App 3607018 output: internal/modules/cjs/loader.js:1015
+App 3607018 output:       throw new ERR_REQUIRE_ESM(filename, parentPath, packageJsonPath);
+App 3607018 output:       ^
+App 3607018 output: 
+App 3607018 output: Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: /home/sjoburger/domains/server.othello.sjoburger.com/apponline.js
+App 3607018 output: require() of ES modules is not supported.
+App 3607018 output: require() of /home/sjoburger/domains/server.othello.sjoburger.com/apponline.js from /opt/passenger/src/helper-scripts/node-loader.js is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+App 3607018 output: Instead rename apponline.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from /home/sjoburger/domains/server.othello.sjoburger.com/package.json.
+App 3607018 output: 
+App 3607018 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+App 3607018 output:     at Module.load (internal/modules/cjs/loader.js:863:32)
+App 3607018 output:     at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+App 3607018 output:     at Module.require (internal/modules/cjs/loader.js:887:19)
+App 3607018 output:     at Module.require (/opt/passenger/src/helper-scripts/node-loader.js:80:25)
+App 3607018 output:     at require (internal/modules/cjs/helpers.js:74:18)
+App 3607018 output:     at loadApplication (/opt/passenger/src/helper-scripts/node-loader.js:243:2)
+App 3607018 output:     at setupEnvironment (/opt/passenger/src/helper-scripts/node-loader.js:214:2)
+App 3607018 output:     at Object.<anonymous> (/opt/passenger/src/helper-scripts/node-loader.js:133:1)
+App 3607018 output:     at Module._compile (internal/modules/cjs/loader.js:999:30) {
+App 3607018 output:   code: 'ERR_REQUIRE_ESM'
+App 3607018 output: }
+App 3624769 output: internal/modules/cjs/loader.js:1015
+App 3624769 output:       throw new ERR_REQUIRE_ESM(filename, parentPath, packageJsonPath);
+App 3624769 output:       ^
+App 3624769 output: 
+App 3624769 output: Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: /home/sjoburger/domains/server.othello.sjoburger.com/apponline.js
+App 3624769 output: require() of ES modules is not supported.
+App 3624769 output: require() of /home/sjoburger/domains/server.othello.sjoburger.com/apponline.js from /opt/passenger/src/helper-scripts/node-loader.js is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+App 3624769 output: Instead rename apponline.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from /home/sjoburger/domains/server.othello.sjoburger.com/package.json.
+App 3624769 output: 
+App 3624769 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+App 3624769 output:     at Module.load (internal/modules/cjs/loader.js:863:32)
+App 3624769 output:     at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+App 3624769 output:     at Module.require (internal/modules/cjs/loader.js:887:19)
+App 3624769 output:     at Module.require (/opt/passenger/src/helper-scripts/node-loader.js:80:25)
+App 3624769 output:     at require (internal/modules/cjs/helpers.js:74:18)
+App 3624769 output:     at loadApplication (/opt/passenger/src/helper-scripts/node-loader.js:243:2)
+App 3624769 output:     at setupEnvironment (/opt/passenger/src/helper-scripts/node-loader.js:214:2)
+App 3624769 output:     at Object.<anonymous> (/opt/passenger/src/helper-scripts/node-loader.js:133:1)
+App 3624769 output:     at Module._compile (internal/modules/cjs/loader.js:999:30) {
+App 3624769 output:   code: 'ERR_REQUIRE_ESM'
+App 3624769 output: }
+App 3626757 output: internal/modules/cjs/loader.js:1015
+App 3626757 output:       throw new ERR_REQUIRE_ESM(filename, parentPath, packageJsonPath);
+App 3626757 output:       ^
+App 3626757 output: 
+App 3626757 output: Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: /home/sjoburger/domains/server.othello.sjoburger.com/apponline.js
+App 3626757 output: require() of ES modules is not supported.
+App 3626757 output: require() of /home/sjoburger/domains/server.othello.sjoburger.com/apponline.js from /opt/passenger/src/helper-scripts/node-loader.js is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+App 3626757 output: Instead rename apponline.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from /home/sjoburger/domains/server.othello.sjoburger.com/package.json.
+App 3626757 output: 
+App 3626757 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+App 3626757 output:     at Module.load (internal/modules/cjs/loader.js:863:32)
+App 3626757 output:     at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+App 3626757 output:     at Module.require (internal/modules/cjs/loader.js:887:19)
+App 3626757 output:     at Module.require (/opt/passenger/src/helper-scripts/node-loader.js:80:25)
+App 3626757 output:     at require (internal/modules/cjs/helpers.js:74:18)
+App 3626757 output:     at loadApplication (/opt/passenger/src/helper-scripts/node-loader.js:243:2)
+App 3626757 output:     at setupEnvironment (/opt/passenger/src/helper-scripts/node-loader.js:214:2)
+App 3626757 output:     at Object.<anonymous> (/opt/passenger/src/helper-scripts/node-loader.js:133:1)
+App 3626757 output:     at Module._compile (internal/modules/cjs/loader.js:999:30) {
+App 3626757 output:   code: 'ERR_REQUIRE_ESM'
+App 3626757 output: }
+App 3627241 output: internal/modules/cjs/loader.js:1015
+App 3627241 output:       throw new ERR_REQUIRE_ESM(filename, parentPath, packageJsonPath);
+App 3627241 output:       ^
+App 3627241 output: 
+App 3627241 output: Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: /home/sjoburger/domains/server.othello.sjoburger.com/apponline.js
+App 3627241 output: require() of ES modules is not supported.
+App 3627241 output: require() of /home/sjoburger/domains/server.othello.sjoburger.com/apponline.js from /opt/passenger/src/helper-scripts/node-loader.js is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+App 3627241 output: Instead rename apponline.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from /home/sjoburger/domains/server.othello.sjoburger.com/package.json.
+App 3627241 output: 
+App 3627241 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+App 3627241 output:     at Module.load (internal/modules/cjs/loader.js:863:32)
+App 3627241 output:     at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+App 3627241 output:     at Module.require (internal/modules/cjs/loader.js:887:19)
+App 3627241 output:     at Module.require (/opt/passenger/src/helper-scripts/node-loader.js:80:25)
+App 3627241 output:     at require (internal/modules/cjs/helpers.js:74:18)
+App 3627241 output:     at loadApplication (/opt/passenger/src/helper-scripts/node-loader.js:243:2)
+App 3627241 output:     at setupEnvironment (/opt/passenger/src/helper-scripts/node-loader.js:214:2)
+App 3627241 output:     at Object.<anonymous> (/opt/passenger/src/helper-scripts/node-loader.js:133:1)
+App 3627241 output:     at Module._compile (internal/modules/cjs/loader.js:999:30) {
+App 3627241 output:   code: 'ERR_REQUIRE_ESM'
+App 3627241 output: }
+App 3648856 output: internal/modules/cjs/loader.js:1015
+App 3648856 output:       throw new ERR_REQUIRE_ESM(filename, parentPath, packageJsonPath);
+App 3648856 output:       ^
+App 3648856 output: 
+App 3648856 output: Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: /home/sjoburger/domains/server.othello.sjoburger.com/apponline.js
+App 3648856 output: require() of ES modules is not supported.
+App 3648856 output: require() of /home/sjoburger/domains/server.othello.sjoburger.com/apponline.js from /opt/passenger/src/helper-scripts/node-loader.js is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
+App 3648856 output: Instead rename apponline.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from /home/sjoburger/domains/server.othello.sjoburger.com/package.json.
+App 3648856 output: 
+App 3648856 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1015:13)
+App 3648856 output:     at Module.load (internal/modules/cjs/loader.js:863:32)
+App 3648856 output:     at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+App 3648856 output:     at Module.require (internal/modules/cjs/loader.js:887:19)
+App 3648856 output:     at Module.require (/opt/passenger/src/helper-scripts/node-loader.js:80:25)
+App 3648856 output:     at require (internal/modules/cjs/helpers.js:74:18)
+App 3648856 output:     at loadApplication (/opt/passenger/src/helper-scripts/node-loader.js:243:2)
+App 3648856 output:     at setupEnvironment (/opt/passenger/src/helper-scripts/node-loader.js:214:2)
+App 3648856 output:     at Object.<anonymous> (/opt/passenger/src/helper-scripts/node-loader.js:133:1)
+App 3648856 output:     at Module._compile (internal/modules/cjs/loader.js:999:30) {
+App 3648856 output:   code: 'ERR_REQUIRE_ESM'
+App 3648856 output: }
