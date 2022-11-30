@@ -4,7 +4,7 @@ import { Server } from "socket.io";
 const httpServer = createServer();
 const io = new Server(httpServer, {
   cors: {
-    origin: "http://localhost:8080",
+    origin: ["http://localhost:8080", "https://othello.sjoburger.com/"],
     methods: ["GET", "POST"],
     transports: ['websocket', 'polling'],
     credentials: true
@@ -26,6 +26,12 @@ var turn = 1
 var board = [...boardStart]
 
 io.on("connection", (socket) => {
+  socket.send(JSON.stringify({
+    type: "hello from server",
+    content: [ 1, "2" ]
+  }))
+  console.log("Connected")
+  socket.emit("hello", "world")
   socket.emit("board", [board, turn])
   socket.on("update", data => {
     board = data[0] ?? board
@@ -34,12 +40,15 @@ io.on("connection", (socket) => {
     socket.emit("board", [board, turn])
   })
   socket.on("requestBoard", () => {
+    console.log("Board request")
     socket.emit("board", [board, turn])
   })
   socket.on("resetBoard", () => {
+    console.log("Board reset")
     board = [...boardStart]
     socket.emit("board", [board, turn])
   })
 })
-
-io.listen(3000);
+console.log("Got here")
+io.listen(443);
+console.log("And here")
